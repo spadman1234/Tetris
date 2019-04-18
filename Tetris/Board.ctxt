@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Board
+comment1.params=
+comment1.target=Board()
+comment1.text=\r\n\ 0\ -\ black\ (empty)\r\n\ 1\ -\ light\ blue\ (I\ block)\r\n\ 2\ -\ red\ (Z\ block)\r\n\ 3\ -\ green\ (S\ block)\r\n\ 4\ -\ yellow\ (square\ block)\r\n\ 5\ -\ dark\ blue\ (L\ block)\r\n\ 6\ -\ orange\ (mirrored\ L\ block)\r\n\ 7\ -\ purple\ (T\ block)\r\n
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=boardX\ boardY\ color\ g2d
+comment3.target=void\ drawBlock(int,\ int,\ java.awt.Color,\ java.awt.Graphics2D)
+comment4.params=g2d
+comment4.target=void\ drawBoard(java.awt.Graphics2D)
+comment5.params=
+comment5.target=void\ update()
+comment6.params=
+comment6.target=int\ getSleep()
+numComments=7
