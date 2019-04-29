@@ -1,3 +1,5 @@
+ 
+
 public class Point {
     private int x;
     private int y;
@@ -5,6 +7,11 @@ public class Point {
     public Point(int dx, int dy){
         x = dx;
         y = dy;
+    }
+    
+    public Point(Point p){
+        this.x = p.x;
+        this.y = p.y;
     }
     
     public int getX(){
